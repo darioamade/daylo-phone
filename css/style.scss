@@ -348,6 +348,7 @@ body {
   left: auto;
   top: auto;
   right: 75%;
+  right: 80%;
   bottom: 0;
   width: 220px;
   height: 220px;
@@ -608,73 +609,215 @@ a {
 }
 
 .comparison-wrapper {
-    padding: 30px;
-    background-color: #313cca;
+  padding: 30px;
+  background-color: #313cca;
 }
 .saving-text-wrapper {
-    margin-bottom: 30px;
-    padding: 20px 30px 30px;
-    background-color: rgba(255,209,200,.1);
+  margin-bottom: 30px;
+  padding: 20px 30px 30px;
+  background-color: rgba(255, 209, 200, 0.1);
 }
 
 .saving-text-wrapper.bottom-box {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 0;
-    padding: 20px;
-    border: 1px solid hsla(0,0%,100%,.1);
-    background-color: transparent;
-    font-size: 12px;
-    line-height: 17px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 20px;
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 17px;
 }
 
-
 .text-block-41 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .saving-calc__title {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 28px;
-    line-height: 1.1;
-    font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 700;
 }
 .savings-row {
-    display: flex;
-    margin-top: 15px;
-    align-items: center;
-    line-height: 22px;
-    font-weight: 500;
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  line-height: 22px;
+  font-weight: 500;
 }
-
 
 .pink {
-    color: #ffcec7;
-    font-size: 14px;
-    font-weight: 500;
+  color: #ffcec7;
+  font-size: 14px;
+  font-weight: 500;
 }
 p {
-    margin-top: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.savings-number {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  border-radius: 20px;
+  background-color: #ffd1c8;
+  color: #2d2d2d;
+  font-size: 12px;
+}
+
+.information__block {
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.75px;
+}
+
+.saving-text-wrapper .bottom-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 20px;
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.image-28 {
+  padding-right: 10px;
+  align-self: flex-start;
+}
+
+.section.section--light-grey {
+  background-color: #f7f7f7;
+  color: #2d2d2d;
+  text-align: left;
+  .container {
+    position: relative;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    flex: 1;
+  }
+}
+
+.best-phones__title .homepage {
+  margin-bottom: 67px;
+}
+
+.best-phones__title {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.list {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.collection-item-2 {
+  display: flex;
+}
+
+.home__phone-wrapper .cc--dark {
+  flex: 1;
+  background-color: #2d2d2d;
+  color: #fff;
+}
+
+.home__phone-wrapper {
+  @media screen and (min-width: 1280px) {
+    padding: 49px;
+  }
+}
+
+.home__phone-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  padding: 32px 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: center;
+}
+.best-phones__card__title {
+  margin: 0;
+  font-size: 20px;
+}
+.home__product-sim-free {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 1.8;
+  }
+}
+.home__product-sim-free {
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #ababab;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.phone-grid__image {
+  @media screen and (min-width: 1280px) {
+    object-fit: fill;
+  }
+}
+.phone-grid__image {
+  display: block;
+  max-height: 400px;
+  margin: 20px auto;
+  padding-bottom: 10px;
 }
 
 
-.savings-number {
-    display: flex;
-    width: 25px;
-    height: 25px;
-    margin-right: 20px;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 auto;
-    border-radius: 20px;
-    background-color: #ffd1c8;
-    color: #2d2d2d;
-    font-size: 12px;
+.best-phones__title.homepage {
+    margin-bottom: 67px;
+}
+.best-phones__title {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
 }
