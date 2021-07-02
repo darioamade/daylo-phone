@@ -749,6 +749,19 @@ h3 {
   grid-template-rows: auto auto;
 }
 
+@media (max-width: 991px) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 470px) {
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .collection-item-2 {
   display: flex;
 }
@@ -822,5 +835,23 @@ h4 {
   line-height: 28px;
   font-weight: 700;
   text-align: center;
+}
+
+.greener-section {
+  padding: 100px 30px;
+  background-color: #424fff;
+  color: #fff;
+  text-align: center;
+}
+
+.greener-section .container {
+  max-width: 460px;
+  margin-right: auto;
+  margin-left: auto;
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 /*# sourceMappingURL=style.css.map */
